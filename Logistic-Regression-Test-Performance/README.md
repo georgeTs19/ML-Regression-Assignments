@@ -3,7 +3,7 @@
 ## Project Title: Machine Learning from a Regression Perspective - Assignment 2
 
 ### Overview
-This repository contains the second assignment from the course **Machine Learning from a Regression Perspective**, part of the Master's program in **Data Analytics and Business Economics** at **Lund University, Sweden**. This assignment builds on foundational regression techniques and extends them to classification problems. The focus is on understanding the interplay between feature engineering, model selection, and classification performance metrics.
+This repository contains the second assignment from the course **Machine Learning from a Regression Perspective**, part of the Master's program in **Data Analytics and Business Economics** at **Lund University**. This assignment builds on foundational regression techniques and extends them to classification problems. The focus is on understanding the interplay between feature engineering, model selection, and classification performance metrics.
 
 ---
 
