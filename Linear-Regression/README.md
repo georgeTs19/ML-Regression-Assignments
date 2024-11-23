@@ -3,18 +3,18 @@
 ## Project Title: Machine Learning from a Regression Perspective - Assignment 1
 
 ### Overview
-This repository contains the first assignment from the course **Machine Learning from a Regression Perspective**, part of the Master's program in **Data Analytics and Business Economics** at **Lund University, Sweden**. The assignment focuses on applying regression-based machine learning methods to analyze and interpret data within a business and economic context.
+This repository contains the first assignment from the course **Machine Learning from a Regression Perspective**, part of the Master's program in **Data Analytics and Business Economics** at **Lund University, Sweden**. The assignment emphasizes hands-on application of regression-based machine learning techniques, highlighting their utility in solving complex problems within business and economics.
 
 ---
 
 ### File Structure
 
 - **`DABN13_Assignment1.ipynb`**  
-  A Jupyter Notebook containing the implementation, analysis, and results of the assignment tasks. The notebook explores regression methodologies using Python libraries.
+  The Jupyter Notebook contains the complete workflow, including data preprocessing, modeling, and result interpretation. The focus is on building a robust regression model to address specific questions tied to the dataset.
 
 - **`dataset/`**
   - **`Guns.dta`**  
-    A Stata dataset used in the assignment. It includes variables related to economic and social factors, potentially influencing outcomes modeled in the assignment.
+    A Stata dataset used in the assignment. It includes socioeconomic and policy-related variables that serve as predictors in regression analyses.
 
 ---
 
@@ -23,39 +23,89 @@ This repository contains the first assignment from the course **Machine Learning
 - **Dataset Name:** Guns.dta  
 - **Format:** Stata (.dta)  
 - **Description:**  
-  The dataset includes economic and demographic indicators relevant to the analysis conducted in the assignment. Variables are preprocessed to align with regression methods used in the notebook.  
+  This dataset examines the relationships between gun-related laws, demographic characteristics, and socioeconomic factors. It is used to develop regression models and uncover trends or patterns.  
+- **Variables:**  
+  - `year`: Year of observation.
+  - `vio`: Violent crime rate.
+  - `mur`: Murder rate.
+  - `rob`: Robbery rate.
+  - `incarc_rate`: Incarceration rate.
+  - `pb1064`, `pw1064`, `pm1029`: Proportions of demographic groups by age, gender, and race.
+  - `pop`: State population.
+  - `avginc`: Average income.
+  - `density`: Population density.
+  - `stateid`: State identifier.
+  - `shall`: Binary indicator for "shall-issue" gun law (1 = Yes, 0 = No).  
+
 - **Source:**  
-  Provided as part of the course materials for analysis and learning purposes.
+  Provided as part of the course materials, this dataset demonstrates the practical application of regression-based techniques to real-world data.
 
 ---
 
-### Objective
-The primary goal of this assignment is to apply regression-based machine learning techniques to a real-world dataset. The focus is on understanding model performance, feature selection, and interpretability in a predictive context.
+### Assignment Objectives
+This assignment focuses on:
+1. Understanding and preparing real-world datasets for regression analysis.
+2. Evaluating the predictive power of multiple regression models and diagnosing common issues (e.g., outliers, multicollinearity).
+3. Applying shrinkage methods such as ridge and lasso regression for improved generalization and feature selection.
+4. Leveraging regression techniques to derive actionable insights from data, particularly in policy analysis or decision-making contexts.
+5. Visualizing model outcomes and communicating findings effectively.
+
+Additional goals:
+- Explore relationships between variables through exploratory data analysis (EDA).
+- Compare and interpret results from multiple regression techniques, identifying strengths and weaknesses of each.
+- Deliver actionable insights and recommendations based on model findings, particularly in the context of gun policy analysis.
 
 ---
 
 ### Instructions
-1. Open the `DABN13_Assignment1.ipynb` file using Jupyter Notebook or any compatible environment.
-2. Ensure the dataset (`Guns.dta`) is placed in the appropriate directory to enable seamless data loading.
-3. Follow the step-by-step implementation in the notebook to explore the methodologies and replicate the results.
+1. **Setup**:
+   - Clone this repository to your local machine:
+     ```bash
+     git clone https://github.com/georgeTs19/ML-Regression-Assignments.git
+     ```
+   - Navigate to the `Linear-Regression` folder in the repository.
+
+2. **Environment**:
+   - Open the `DABN13_Assignment1.ipynb` file using Jupyter Notebook or any compatible environment.
+   - Ensure the dataset (`Guns.dta`) is placed in the `dataset/` directory for seamless data loading.
+   - Install the required Python libraries (see the Requirements section).
+
+3. **Workflow**:
+   - Load, clean, and preprocess the dataset.
+   - Explore variable relationships through descriptive statistics and visualizations.
+   - Fit and evaluate multiple regression models, including OLS, Ridge, and Lasso.
+   - Compare models and document actionable insights for policy recommendations.
 
 ---
 
 ### Requirements
-- **Python Environment:**  
-  Install the following Python libraries before running the notebook:
-  - pandas
-  - numpy
-  - statsmodels
-  - matplotlib
-  - seaborn
+- **Python Environment**:
+  - `pandas`
+  - `numpy`
+  - `statsmodels`
+  - `matplotlib`
+  - `seaborn`
+  - `scikit-learn` (for ridge and lasso regression)
 
-- **Stata File Support:**  
-  Ensure `pandas` or similar library can handle `.dta` files.
+- **Stata File Support**:
+  Ensure your environment can process `.dta` files using libraries like `pandas`.
+
+---
+
+### Key Deliverables
+1. A comprehensive Jupyter Notebook showcasing:
+   - Data preparation and preprocessing.
+   - Exploratory Data Analysis (EDA).
+   - Regression analysis and model comparisons.
+   - Interpretations and actionable insights.
+2. Visualizations supporting findings and highlighting key trends.
+3. Written conclusions derived from regression outputs.
 
 ---
 
 ### Acknowledgments
-This assignment and dataset are part of the **DABN13** course, focusing on practical applications of machine learning techniques in business and economics.
+This assignment and dataset are part of the **DABN13** course, focusing on the application of machine learning techniques in business and economics. The course is a component of the Master's program at Lund University.
 
 ---
+
+
