@@ -3,7 +3,7 @@
 ## Project Title: Dimensionality Reduction and Cross-Validation - Assignment 3
 
 ### Overview
-This repository contains the third assignment from the course **Machine Learning from a Regression Perspective**, part of the Master's program in **Data Analytics and Business Economics** at **Lund University, Sweden**. The assignment focuses on applying dimensionality reduction techniques, such as Principal Component Analysis (PCA), alongside cross-validation to build robust regression models for financial datasets.
+This repository contains the third assignment from the course **Machine Learning from a Regression Perspective**, part of the Master's program in **Data Analytics and Business Economics** at **Lund University**. The assignment focuses on applying dimensionality reduction techniques, such as Principal Component Analysis (PCA), alongside cross-validation to build robust regression models for financial datasets.
 
 ---
 
