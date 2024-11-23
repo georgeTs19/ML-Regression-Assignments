@@ -5,7 +5,7 @@
 ## Overview
 This repository contains assignments from the **"Machine Learning from a Regression Perspective"** course, part of the Master's program in **Data Analytics and Business Economics** at **Lund University, Sweden**. The course emphasizes machine learning techniques grounded in regression analysis, covering topics such as logistic regression, model selection, shrinkage methods (e.g., lasso, ridge regression), dimension reduction (e.g., principal components regression), and neural networks.
 
-The assignments demonstrate the practical application of these methods to real-world business and economic problems, utilizing **Python programming** for data analysis and Python for supplementary methods.
+The assignments demonstrate the practical application of these methods to real-world business and economic problems, utilizing **Python programming** for data analysis.
 
 ---
 
